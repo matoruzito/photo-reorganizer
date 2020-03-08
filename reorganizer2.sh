@@ -18,11 +18,20 @@ then
     if [ $actualYear -gt $firstYear ]
     then
         i=$firstYear
-        while [ $i -lt $actualYear ];
+        one=1
+        actualYearIncreased=$((actualYear+1))       #For include the actual year also.
+        
+        while [ $i -lt $actualYearIncreased ];
         do
-            echo "Increasing... $i"
-            one=1
-            $i=$(expr $i + $one)
+            #This will be repeated as many times as the years you have in pictures
+            
+
+
+
+
+
+
+            i=$((i+1))
         done
 
     else
