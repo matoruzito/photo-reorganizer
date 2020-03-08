@@ -91,14 +91,14 @@ then
 
             i=$((i+1))
         done
-        cat $dateCreate
 
     else
         echo "The first year needs to be in the past. "
         exit
 
     fi 
-
+    cd $actualRoute
+    rm -rf DATE_CREATE DIRECTORY_LIST FILE_LIST
 
 else
     echo "Error: Directory $initialRoute is not working."
