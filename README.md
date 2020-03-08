@@ -1,0 +1,2 @@
+# photo-reorganizer
+This script reorganizes your photos. If you have your family pictures disordered you can run this and the output will be a folder with your pictures ordered by year. It is important to say that the pics are needed to be located into folders with the year in the name. It doesn't matter if the year is not the only string that appears into the name, but it needs to be there. (For this first version, of course, later it will be expectable to have a new one with more features). 
